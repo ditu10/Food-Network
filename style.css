@@ -121,7 +121,12 @@ footer p{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 5px;
+    padding: 5px 0px 10px;
+    
+    background-image: url(images/shapes/Frame\ 59.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 
 .logo{
