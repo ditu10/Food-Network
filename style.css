@@ -43,11 +43,11 @@ body{
 }
 .half-width h1{
     font-size: 50px;
-    line-height: .6em;
+    margin: 10px;
+    
 }
 h2{
     font-size: 35px;
-
 }
 
 .half-width span{
@@ -132,18 +132,15 @@ footer p{
     width: 60px;
 }
 .nav-bar{
-    display: flex;
-    width: 50%;
-    justify-content: space-around;
-    align-items: center;
+    width: 60%;
 }
-li{
-    display: inline;
-    width: 25%;
-    padding:0px 20px;
-}
+
 ul{
     list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
 }
 .nav-bar a{
     text-decoration: none;
